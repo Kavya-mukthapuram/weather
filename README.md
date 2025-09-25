@@ -18,7 +18,7 @@ This  allows users to search for any city and get live weather details including
 
 ## 🛠 Tech Stack
 - **HTML5** – Structure  
-- **CSS3** – Styling (Glassmorphism + Responsive Design)  
+- **CSS3** – Styling  
 - **JavaScript** – Fetch API, DOM Manipulation  
 - **OpenWeatherMap API** – Real-time weather data  
 
