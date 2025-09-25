@@ -1,7 +1,7 @@
-# 🌦 Weather App
+# 🌦 Weather
 
 A simple and beautiful weather application built with **HTML, CSS, and JavaScript** that fetches real-time weather data from the **OpenWeatherMap API**.  
-This app allows users to search for any city and get live weather details including **temperature, description, humidity, and wind speed**.
+This  allows users to search for any city and get live weather details including **temperature, description, humidity, and wind speed**.
 
 ---
 
@@ -30,5 +30,5 @@ This app allows users to search for any city and get live weather details includ
 Clone the repository:
 
 ```bash
-git clone https://github.com/kavya-mukthapuram/weather-app.git
-cd weather-app
+git clone https://github.com/kavya-mukthapuram/weather.git
+cd weather
