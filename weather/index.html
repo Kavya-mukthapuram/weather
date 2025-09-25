@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <title>Weather App</title>
+
+  <!-- Ionicons CDN -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <ion-icon name="location-sharp"></ion-icon>
+      <input type="text" placeholder="Enter your location">
+      <button><ion-icon name="search-sharp"></ion-icon></button>
+    </div>
+      
+    <p class="city-hide">city hide</p>
+
+
+
+    <div class="weather-box">
+      <div class="box">
+        <div class="info-weather">
+          <div class="weather">
+            <img src="cloud.png" alt="">
+            <p class="temperature">0 <span>°C</span></p>
+            <p class="description">---</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="weather-details">
+      <div class="humidity">
+        <ion-icon name="water"></ion-icon>
+        <div class="text">
+          <div class="info-humidity">
+            <span>0%</span>
+          </div>
+          <p>Humidity</p>
+        </div>
+      </div>
+
+      <div class="wind">
+        <ion-icon name="options-sharp"></ion-icon>
+        <div class="text">
+          <div class="info-wind">
+            <span>0km/h</span>
+          </div>
+          <p>Wind Speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="not-found">
+        <div class="box">
+            <img src="404.png" alt="">
+            <p>Oops! location not found!</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
